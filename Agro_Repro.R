@@ -6,6 +6,7 @@
 # 2. Inventory Management
 # 3. Field Data Collection
 
+#Load all necessary packages required
 library(shiny)
 library(shinyMobile)
 library(tidyverse)
@@ -22,10 +23,6 @@ if (!require("shinyMobile")) {
   remotes::install_github("RinteRface/shinyMobile")
 }
 
-library(shinyMobile)
-
-packageVersion("shinyMobile")
-
 # -----------------------------
 # Authentication for Google Sheets (Module 2)
 # -----------------------------
@@ -35,7 +32,9 @@ options(
 )
 gs4_auth()
 
+## Google sheet ID
 sheet_id <- "https://docs.google.com/spreadsheets/d/1FcxawPrMIcN5-KHuPiFxk42nh4l9o8qmlFcvtoWv9To/edit?usp=sharing"
+
 input_fields <- list(
   Seed      = c("Genotype","Species","Weight_g","Unit","Location","Date_Stored","Date_Harvested","Source","Notes"),
   Reagent   = c("Reagent_Name","Quantity","Unit","Location","Date_Received","Expiry_Date","Supplier","Notes",""),
