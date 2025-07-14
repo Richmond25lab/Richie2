@@ -1,13 +1,13 @@
 #________________________________Lab_Repository________________________________
 #___________________ To store, track and manage samples _______________________
 #__________                                                         ___________
-get
+
 # Load necessary packages 
 library(shiny)
 library(DT)
 library(tidyverse)
-getwd()
-setwd("C:/Users/rnein/Desktop/Lab_Repository")
+
+setwd("C:/Users/rnein/Desktop/Lab_Repository") #Set to your own repository
 
 # File paths for CSV storage
 seed_data_file <- "seed_repository.csv"      #file path for seed_data

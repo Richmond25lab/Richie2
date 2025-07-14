@@ -1,9 +1,13 @@
+############    A ShinyApp for image anotaions for ##############
+############    my undergraduate project work      ##############
+
+# Load the necessary packages
 install.packages("shinydashboard")
 library(shiny)
 library(shinydashboard)
 library(magick)
 library(tools)
-
+# The ui
 ui <- dashboardPage(
   dashboardHeader(title = "Photo Renaming App"),
   dashboardSidebar(
