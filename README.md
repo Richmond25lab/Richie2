@@ -15,3 +15,6 @@ B. Image renaming app
 4. **Download the renamed photos** as a ZIP archive.
 
 The app has a clean UI with two tabs—**Upload Photos** and **Rename Photos**—and handles common file management tasks with notifications for success or errors. It's especially useful for organizing large batches of images with consistent, readable names. 
+
+C.   app.R - **Lab Repository Management System**
+This Shiny app is a **Lab Repository Management System** that allows users to **store, track, and manage key lab materials** such as seeds, tissue cultures, reagents, and equipment. It provides a tabbed interface where users can input sample information via forms, save them to structured CSV files, and view the entries in searchable, filterable data tables. Each tab corresponds to a specific category, and new entries are instantly saved and displayed. The app ensures data consistency, organization, and easy retrieval—ideal for laboratory inventory and experimental sample tracking.
